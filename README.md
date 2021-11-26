@@ -10,6 +10,8 @@ WARNING: This application is BROKEN, It does not work as intended. Serves as a
 starter for a discussion.
 
 
+This is a sample for a [question at Apple Developer Forums](https://developer.apple.com/forums/thread/695395).
+
 # Problem Definition
 
 **MODEL**
