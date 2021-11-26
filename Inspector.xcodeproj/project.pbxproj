@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8C04466275039ED00C173B6 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C04465275039ED00C173B6 /* ThingView.swift */; };
+		F8C0446927517C9400C173B6 /* ThingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C0446827517C9400C173B6 /* ThingListView.swift */; };
+		F8C0446B27517D3C00C173B6 /* DynamicThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C0446A27517D3C00C173B6 /* DynamicThing.swift */; };
 		F8DE91252745518200F89864 /* InspectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE91242745518200F89864 /* InspectorApp.swift */; };
 		F8DE91272745518200F89864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE91262745518200F89864 /* ContentView.swift */; };
 		F8DE91292745518500F89864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DE91282745518500F89864 /* Assets.xcassets */; };
 		F8DE912C2745518500F89864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DE912B2745518500F89864 /* Preview Assets.xcassets */; };
+		F8DE91342745519D00F89864 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE91332745519D00F89864 /* Environment.swift */; };
+		F8DE91362745544500F89864 /* Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE91352745544500F89864 /* Inspector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8C04465275039ED00C173B6 /* ThingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
+		F8C0446727504D2F00C173B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8C0446827517C9400C173B6 /* ThingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingListView.swift; sourceTree = "<group>"; };
+		F8C0446A27517D3C00C173B6 /* DynamicThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicThing.swift; sourceTree = "<group>"; };
 		F8DE91212745518200F89864 /* Inspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DE91242745518200F89864 /* InspectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorApp.swift; sourceTree = "<group>"; };
 		F8DE91262745518200F89864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8DE91282745518500F89864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DE912B2745518500F89864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8DE912D2745518500F89864 /* Inspector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inspector.entitlements; sourceTree = "<group>"; };
+		F8DE91332745519D00F89864 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		F8DE91352745544500F89864 /* Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +47,7 @@
 		F8DE91182745518200F89864 = {
 			isa = PBXGroup;
 			children = (
+				F8C0446727504D2F00C173B6 /* README.md */,
 				F8DE91232745518200F89864 /* Inspector */,
 				F8DE91222745518200F89864 /* Products */,
 			);
@@ -53,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				F8DE91242745518200F89864 /* InspectorApp.swift */,
+				F8C0446A27517D3C00C173B6 /* DynamicThing.swift */,
+				F8DE91332745519D00F89864 /* Environment.swift */,
 				F8DE91262745518200F89864 /* ContentView.swift */,
+				F8C0446827517C9400C173B6 /* ThingListView.swift */,
+				F8C04465275039ED00C173B6 /* ThingView.swift */,
+				F8DE91352745544500F89864 /* Inspector.swift */,
 				F8DE91282745518500F89864 /* Assets.xcassets */,
 				F8DE912D2745518500F89864 /* Inspector.entitlements */,
 				F8DE912A2745518500F89864 /* Preview Content */,
@@ -140,6 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8DE91272745518200F89864 /* ContentView.swift in Sources */,
+				F8C0446927517C9400C173B6 /* ThingListView.swift in Sources */,
+				F8DE91362745544500F89864 /* Inspector.swift in Sources */,
+				F8C0446B27517D3C00C173B6 /* DynamicThing.swift in Sources */,
+				F8DE91342745519D00F89864 /* Environment.swift in Sources */,
+				F8C04466275039ED00C173B6 /* ThingView.swift in Sources */,
 				F8DE91252745518200F89864 /* InspectorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct InspectorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(AppEnvironment())
         }
     }
 }
